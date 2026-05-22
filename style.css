@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: Menlo, Consolas, monospace;
+  overflow: hidden;
+}
+
+#start-btn {
+  display: none;
+}
+
+#stage {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 220px);
+  grid-template-rows: repeat(3, 220px);
+
+  gap: 120px 210px;
+}
+
+.cell {
+  position: relative;
+  width: 220px;
+  height: 220px;
+}
+
+.qr {
+  width: 155px;
+  height: 155px;
+
+  image-rendering: pixelated;
+  display: block;
+  cursor: crosshair;
+}
+
+.terminal {
+  position: absolute;
+
+  top: 172px;
+  left: 0;
+
+  width: 155px;
+
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+
+  padding: 0;
+
+  font-size: 12px;
+  line-height: 1.35;
+
+  white-space: pre-wrap;
+
+  color: #000;
+
+  text-align: center;
+
+  font-family: Menlo, Consolas, monospace;
+}
+
+.decoded {
+  font-weight: normal;
+}
