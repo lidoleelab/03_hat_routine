@@ -20,6 +20,31 @@ body {
   align-items: center;
 }
 
+#stage-direction {
+  position: absolute;
+
+  top: 28px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 72vw;
+  max-width: 1200px;
+
+  font-size: 11px;
+  line-height: 1.7;
+
+  color: #9a9a9a;
+
+  text-align: center;
+
+  font-family: Menlo, Consolas, monospace;
+
+  pointer-events: none;
+
+  user-select: none;
+}
+
 #grid {
   display: grid;
 
