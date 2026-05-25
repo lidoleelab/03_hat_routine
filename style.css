@@ -31,12 +31,12 @@ body {
   width: 72vw;
   max-width: 1200px;
 
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.7;
 
   color: #cfcfcf;
 
-  text-align: center;
+  text-align: left;
 
   font-family: Menlo, Consolas, monospace;
 
